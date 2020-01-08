@@ -3,9 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeslaCamMediaAPI", "src\TeslaCamMediaAPI\TeslaCamMediaAPI.csproj", "{F94B90AC-F959-41BC-93E2-341737E45064}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeslaCamMediaAPI.Test", "test\TeslaCamMediaAPI.Test\TeslaCamMediaAPI.Test.csproj", "{B0DEE835-A0D3-4311-B260-29B5FCA7E456}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A1C50797-A02E-40D5-AD48-B005F9EC612E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D6D47460-DFDF-4E43-B7D7-4159B27BD85A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F94B90AC-F959-41BC-93E2-341737E45064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F94B90AC-F959-41BC-93E2-341737E45064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F94B90AC-F959-41BC-93E2-341737E45064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F94B90AC-F959-41BC-93E2-341737E45064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DEE835-A0D3-4311-B260-29B5FCA7E456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DEE835-A0D3-4311-B260-29B5FCA7E456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DEE835-A0D3-4311-B260-29B5FCA7E456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DEE835-A0D3-4311-B260-29B5FCA7E456}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F94B90AC-F959-41BC-93E2-341737E45064} = {A1C50797-A02E-40D5-AD48-B005F9EC612E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81FFEFCC-9140-44C0-9AB7-76B2C6FDC472}

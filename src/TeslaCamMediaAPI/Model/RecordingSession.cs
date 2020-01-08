@@ -30,7 +30,7 @@ namespace TeslaCamMediaAPI.Model
 
 		public async Task DeleteAsync()
 		{
-			
+			await Task.CompletedTask;
 		}
 	}
 }

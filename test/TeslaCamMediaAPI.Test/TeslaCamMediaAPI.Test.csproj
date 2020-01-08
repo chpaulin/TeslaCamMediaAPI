@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TeslaCamMediaAPI\TeslaCamMediaAPI.csproj" />
+    <ProjectReference Include="..\..\src\TeslaCamMediaAPI\TeslaCamMediaAPI.csproj" />
   </ItemGroup>
 
 </Project>
